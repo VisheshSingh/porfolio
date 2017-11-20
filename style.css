@@ -1,14 +1,17 @@
+/* CSS RESETTING */
 * {
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5em;
 }
 
+/* NAVIGATION BAR */
 .navbar{
     background: #0CE49F;
 }
 
-.navbar .container{
+.container{
     width: 80%;
     margin: auto;
 }
@@ -49,3 +52,56 @@ nav ul li a:hover{
     border-bottom: 2px solid #000;
     transition: all 0.2s ease;
 }
+
+nav:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/* NAVIGATION BAR ENDS*/
+
+/* HERO SECTION */
+#hero{
+    min-height: 500px;
+    text-align: center;
+}
+
+#hero .bg-img{
+    position: absolute;
+    background: url(img/hero.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -20px;
+    width:100%;
+    height: 500px;
+    z-index: -1; 
+    opacity: 0.6;
+}
+
+#hero h1 {
+    font-size: 3em;
+    padding-top: 150px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    width: 50%;
+    margin: auto;
+}
+
+#hero .btn{
+    display: inline-block;
+    margin: 1em;
+    color: #000;
+    text-decoration: none;
+    padding: 1em 2em;
+    margin: 2em 1em;
+    border: 1px solid #000;
+}
+
+#hero .btn:hover{
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all 0.5s ease-in;
+}
+/* HERO SECTION ENDS*/
