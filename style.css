@@ -190,3 +190,20 @@ nav:after{
     color:#0CE49F;
     font-size:5em;
 }
+
+/* FOOTER */
+footer{
+    background: #444;
+    color:#fff;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+
+footer p {
+    padding:2.2em;
+}
+
+footer p span {
+    color: #0CE49F;
+}
