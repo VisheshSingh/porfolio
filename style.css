@@ -109,7 +109,6 @@ nav:after{
 #about {
     margin-top:4em;
     margin-bottom:4em;
-    border:1px solid blue;
 }
 
 #about .container {
@@ -163,3 +162,31 @@ nav:after{
     transition: all 0.5s ease-in;
 }
 /* ABOUT ME SECTION ENDS*/
+
+/* SKILLS SECTION */
+#skills{
+    background: #e2e2e2;
+    min-height: 500px;
+}
+
+#skills h2{
+    padding:2em;
+    text-align: center;
+    font-size:2em;
+    text-transform: capitalize;
+}
+
+#skills .container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, minmax(200px, auto));
+    grid-gap:5em;
+    text-align: center;
+}
+
+#skills i {
+    color:#0CE49F;
+    font-size:5em;
+}
