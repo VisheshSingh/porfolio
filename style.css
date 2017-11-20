@@ -38,19 +38,18 @@ nav ul li {
 }
 
 nav ul li a{
-    padding-bottom: 10px;
     text-decoration: none;
     color: #000;
 }
 
 .active {
-    padding-bottom: 10px;
+    padding-bottom: 6px;
     border-bottom: 2px solid #000;
 }
 
 nav ul li a:hover{
+    padding-bottom: 10px;
     border-bottom: 2px solid #000;
-    transition: all 0.2s ease;
 }
 
 nav:after{
@@ -105,3 +104,62 @@ nav:after{
     transition: all 0.5s ease-in;
 }
 /* HERO SECTION ENDS*/
+
+/* ABOUT ME SECTION*/
+#about {
+    margin-top:4em;
+    margin-bottom:4em;
+    border:1px solid blue;
+}
+
+#about .container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, minmax(200px, auto));
+}
+
+#about h2{
+    text-align: center;
+    font-size:2em;
+    margin-bottom: 2em;
+    text-transform: capitalize;
+}
+
+#about h2:after{
+    border-bottom:1px solid red;
+}
+
+#about .container .col-left img{
+    width:55%;
+    height:500px;
+    margin-left: 100px;
+}
+
+#about .container .col-right h3{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#about .container .col-right p{
+    font-size: 1.2em;
+}
+
+#about .container .col-right a{
+    display: inline-block;
+    font-size: 1.2em;
+    text-decoration: none;
+    background: #0CE49F;
+    border: 1px solid #0CE49F;
+    padding: 1em 2em;
+    color: #fff;
+}
+
+#about .container .col-right a:hover{
+    background: #fff;
+    border: 1px solid #0CE49F;
+    color: #0CE49F;
+    transition: all 0.5s ease-in;
+}
+/* ABOUT ME SECTION ENDS*/
