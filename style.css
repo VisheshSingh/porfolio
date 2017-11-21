@@ -284,10 +284,21 @@ footer{
 }
 
 footer p {
-    padding:2.2em;
+    padding-top:2.2em;
 }
 
 footer p span {
     color: #0CE49F;
 }
-/* FOOTERENDS */
+
+footer .social a i {
+    color: #fff;
+    font-size:1.2em;
+    margin-right:1em;
+}
+
+footer .social a i:hover{
+    color:#0CE49F;
+    transition: all 0.5s ease-in;
+}
+/* FOOTER ENDS */
