@@ -231,6 +231,8 @@ nav:after{
 
 #project1, #project2, #project3{
     height: 300px;
+    position: relative;
+    overflow: hidden;
 }
 
 #project1{
@@ -241,12 +243,33 @@ nav:after{
 #project2{
     background: url(img/project2.png);
     background-size: cover;
-    background-position: center;
 }
 
 #project3{
     background: url(img/project3.png);
     background-size: cover;
+}
+
+.overlay {
+    width:100%;
+    height:100%;
+    position: absolute;
+    padding-top: 20em;
+}
+
+.overlay:hover{
+    padding-top: 7em;
+    background: rgba(0,0,0,0.6);
+    transition: all 0.5s ease-in;
+}
+
+.overlay a {
+    display: inline-block;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 1em 2em;
+    text-decoration: none;
+    text-transform: uppercase
 }
 
 /* PROJECTS SECTION */
