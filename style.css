@@ -290,19 +290,36 @@ nav:after{
 #contact .container {
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(4, 1fr)
+    grid-template-columns: 1fr 1fr 2fr;
 }
 
-#contact .container a i{
-    font-size:2em;
+.social i{
+    font-size: 2em;
     color: #000;
 }
 
-#contact .container a i:hover{
-    font-size:3em;
+.social i:hover{
     color:#0CE49F;
-    transition: all 0.5s ease-in;
 }
+
+.social span{
+    font-size:1.1em;
+}
+
+#reach {
+    text-align: left;
+    margin-left:10em;
+}
+
+#reach i{
+    font-size: 2em;
+}
+
+#reach span{
+    font-size: 1.1em;
+    display: inline-block;
+}
+
 /* CONTACT SECTION ENDS */
 
 /* FOOTER */
