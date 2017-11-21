@@ -320,6 +320,52 @@ nav:after{
     display: inline-block;
 }
 
+.wrapper{
+    width: 80%;
+    margin:  2em auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.contacts {
+    background: #0CE49F;
+    color: #fff;
+  }
+  
+  .form {
+    background: #fff;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  form label {
+    display: block;
+  }
+
+  form p {
+    margin: 1em;
+    width:80%;
+  }
+  
+  .full-width {
+    grid-column: 1 / 3;
+  }
+  
+  button,
+  input,
+  textarea {
+    padding: 0.8em;
+  }
+  
+  button {
+    background: lightgrey;
+    width: 100%;
+    border: 0;
+  }
+
 /* CONTACT SECTION ENDS */
 
 /* FOOTER */
