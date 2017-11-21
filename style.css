@@ -272,7 +272,38 @@ nav:after{
     text-transform: uppercase
 }
 
-/* PROJECTS SECTION */
+/* PROJECTS SECTION ENDS*/
+
+/* CONTACT SECTION */
+#contact{
+    min-height: 500px;
+    background: #e2e2e2;
+}
+
+#contact h2{
+    padding:2em;
+    text-align: center;
+    font-size:2em;
+    text-transform: capitalize;
+}
+
+#contact .container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+#contact .container a i{
+    font-size:2em;
+    color: #000;
+}
+
+#contact .container a i:hover{
+    font-size:3em;
+    color:#0CE49F;
+    transition: all 0.5s ease-in;
+}
+/* CONTACT SECTION ENDS */
 
 /* FOOTER */
 footer{
