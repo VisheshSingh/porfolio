@@ -126,6 +126,11 @@ nav:after{
     text-transform: capitalize;
 }
 
+#about h2 span{
+    padding-bottom:0.3em;
+    border-bottom: 2px solid #0CE49F;
+}
+
 #about h2:after{
     border-bottom:1px solid red;
 }
@@ -176,6 +181,11 @@ nav:after{
     text-transform: capitalize;
 }
 
+#skills h2 span{
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid #0CE49F;
+}
+
 #skills .container {
     width: 80%;
     margin: auto;
@@ -190,6 +200,56 @@ nav:after{
     color:#0CE49F;
     font-size:5em;
 }
+
+/* PROJECTS SECTION */
+#projects{
+    min-height: 600px;
+}
+
+#projects h2{
+    padding:2em;
+    text-align: center;
+    font-size:2em;
+    text-transform: capitalize;
+}
+
+.projects-title span{
+    padding-bottom: 0.3em;
+    border-bottom:2px solid #0CE49F;
+}
+
+#projects .container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, minmax(200px, auto));
+    grid-gap:5em;
+    text-align: center;
+    position: relative;
+}
+
+#project1, #project2, #project3{
+    height: 300px;
+}
+
+#project1{
+    background: url(img/project1.png);
+    background-size: cover;
+}
+
+#project2{
+    background: url(img/project2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#project3{
+    background: url(img/project3.png);
+    background-size: cover;
+}
+
+/* PROJECTS SECTION */
 
 /* FOOTER */
 footer{
@@ -207,3 +267,4 @@ footer p {
 footer p span {
     color: #0CE49F;
 }
+/* FOOTERENDS */
