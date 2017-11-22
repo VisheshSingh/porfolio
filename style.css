@@ -9,6 +9,9 @@
 /* NAVIGATION BAR */
 .navbar{
     background: #0CE49F;
+    position:fixed;
+    width:100%;
+    height: 100px;
 }
 
 .container{
@@ -63,6 +66,7 @@ nav:after{
 #hero{
     min-height: 500px;
     text-align: center;
+    padding-top:100px;
 }
 
 #hero .bg-img{
@@ -109,6 +113,7 @@ nav:after{
 #about {
     margin-top:4em;
     margin-bottom:4em;
+    padding-top:100px;
 }
 
 #about .container {
@@ -172,6 +177,7 @@ nav:after{
 #skills{
     background: #e2e2e2;
     min-height: 500px;
+    padding-top:100px;
 }
 
 #skills h2{
@@ -204,6 +210,7 @@ nav:after{
 /* PROJECTS SECTION */
 #projects{
     min-height: 600px;
+    padding-top:100px;
 }
 
 #projects h2{
@@ -278,6 +285,7 @@ nav:after{
 #contact{
     min-height: 1000px;
     background: #e2e2e2;
+    padding-top:100px;
 }
 
 #contact h2{
