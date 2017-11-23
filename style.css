@@ -12,6 +12,23 @@
     position:fixed;
     width:100%;
     height: 100px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.navbar.transparent {
+    height: 90px;
+    opacity:0.9;
+}
+
+.navbar.transparent nav a{
+    font-size: 1.1em;
+    transition: 0.5s;
+}
+
+.navbar.transparent .container{
+    width: 90%;
+    transition: 0.5s;
 }
 
 .container{
