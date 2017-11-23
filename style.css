@@ -14,6 +14,7 @@
     height: 100px;
     box-sizing: border-box;
     transition: 0.5s;
+    z-index:1;
 }
 
 .navbar.transparent {
@@ -52,6 +53,10 @@ nav{
     margin: 30px;
 }
 
+nav ul{
+    overflow: hidden;
+}
+
 nav ul li {
     display: inline-block;
     margin-right: 20px;
@@ -62,7 +67,7 @@ nav ul li a{
     color: #000;
 }
 
-.active {
+nav ul li.active {
     padding-bottom: 6px;
     border-bottom: 2px solid #000;
 }
@@ -76,6 +81,42 @@ nav:after{
     content: '';
     display: block;
     clear: both;
+}
+
+@media screen and (max-width: 796px){
+    nav{
+        display: block;
+        margin:auto;
+        text-align: center;
+        float: none;
+    }
+
+    .navbar{
+        height:200px;
+        padding:2em;
+        position: absolute;
+    }
+
+    #logo{
+        margin-left: 4.7em;
+        font-size:2em;
+    }
+
+    .navbar.transparent {
+        height: 200px;
+        opacity:0.9;
+    }
+    
+    .navbar.transparent nav a{
+        font-size: 1.1em;
+        transition: 0.5s;
+    }
+    
+    .navbar.transparent .container{
+        width: 80%;
+        transition: 0.5s;
+    }
+
 }
 /* NAVIGATION BAR ENDS*/
 
@@ -188,6 +229,23 @@ nav:after{
     color: #0CE49F;
     transition: all 0.5s ease-in;
 }
+
+@media screen and (max-width: 796px){
+    #about{
+        padding-top:0px;
+    }
+
+    #about .container{
+        width:95%;
+    }
+
+    #about .container .col-left img{
+        width:70%;
+        height:500px;
+        margin-left: 50px;
+        margin-top:50px;
+    }
+}
 /* ABOUT ME SECTION ENDS*/
 
 /* SKILLS SECTION */
@@ -195,6 +253,7 @@ nav:after{
     background: #e2e2e2;
     min-height: 500px;
     padding-top:100px;
+    padding-bottom:50px;
 }
 
 #skills h2{
@@ -222,6 +281,17 @@ nav:after{
 #skills i {
     color:#0CE49F;
     font-size:5em;
+}
+
+@media screen and (max-width: 796px){
+    #skills{
+        padding: 2em;
+    }
+
+    #skills .container{
+        width:90%;
+        grid-gap:2em;
+    }
 }
 
 /* PROJECTS SECTION */
@@ -294,6 +364,30 @@ nav:after{
     padding: 1em 2em;
     text-decoration: none;
     text-transform: uppercase
+}
+
+@media screen and (max-width: 796px){
+    #projects{
+        padding-top: 0px;
+    }
+
+    #projects .container{
+        width:80%;
+        margin:3em auto;
+        grid-template-columns: 1fr;
+    }
+
+    #project1, #project2, #project3{
+        height: 500px;
+    }
+
+    .overlay {
+        padding-top: 35em;
+    }
+
+    .overlay:hover{
+        padding-top: 13em;
+    }
 }
 
 /* PROJECTS SECTION ENDS*/
@@ -424,6 +518,32 @@ button:hover {
     color:#fff;
     background: #0CE49F;
     transition: all 0.5s ease-in;
+}
+
+@media screen and (max-width: 796px){
+    #contact{
+        padding-top:0px;
+    }
+
+    #contact .container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .social span, #reach span{
+        font-size:0.9em;
+    }
+
+    #reach{
+        display: none;
+    }
+
+    .wrapper{
+        width:90%;
+    }
+
+    form{
+        grid-gap: 2em;
+    }
 }
 
 /* CONTACT SECTION ENDS */
