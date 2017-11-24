@@ -117,6 +117,12 @@ nav:after{
         margin-left: 3em;
     }
 }
+
+@media screen and (max-width: 480px){
+    #logo{
+        margin-left: 1em;
+    }
+}
 /* NAVIGATION BAR ENDS*/
 
 /* HERO SECTION */
@@ -172,6 +178,16 @@ nav:after{
     #hero p{
         font-size: 1.3em;
         line-height: 1.5em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #hero .bg-img{
+        padding-top:180px;
+    }
+
+    #hero p{
+        width:70%;
     }
 }
 /* HERO SECTION ENDS*/
@@ -293,6 +309,19 @@ nav:after{
         margin-left:9em;
     }
 
+}
+
+@media screen and (max-width: 480px){
+    #about .container .col-left img{
+        width:40%;
+        height:250px;
+        margin-left: 7em;
+        border-radius:100%;
+    }
+
+    #about .container .col-right a{
+        margin-left:5em;
+    }
 }
 /* ABOUT ME SECTION ENDS*/
 
@@ -661,6 +690,12 @@ button:hover {
 
     .form{
         padding: 3em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .contacts {
+        text-align: center;
     }
 }
 /* CONTACT SECTION ENDS */
