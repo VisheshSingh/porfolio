@@ -13,7 +13,6 @@
     width:100%;
     height: 100px;
     box-sizing: border-box;
-    transition: 0.5s;
     z-index:1;
 }
 
@@ -24,7 +23,6 @@
 
 .navbar.transparent nav a{
     font-size: 1.1em;
-    transition: 0.5s;
 }
 
 .navbar.transparent .container{
@@ -67,12 +65,7 @@ nav ul li a{
     color: #000;
 }
 
-nav ul li.active {
-    padding-bottom: 6px;
-    border-bottom: 2px solid #000;
-}
-
-nav ul li a:hover{
+nav ul li:hover{
     padding-bottom: 10px;
     border-bottom: 2px solid #000;
 }
@@ -117,6 +110,12 @@ nav:after{
         transition: 0.5s;
     }
 
+}
+
+@media screen and (max-width: 650px){
+    #logo{
+        margin-left: 3em;
+    }
 }
 /* NAVIGATION BAR ENDS*/
 
@@ -164,6 +163,16 @@ nav:after{
     color: #fff;
     border: 1px solid #fff;
     transition: all 0.5s ease-in;
+}
+
+@media screen and (max-width: 650px){
+    #hero .bg-img{
+        padding-top:60px;
+    }
+    #hero p{
+        font-size: 1.3em;
+        line-height: 1.5em;
+    }
 }
 /* HERO SECTION ENDS*/
 
@@ -230,6 +239,12 @@ nav:after{
     transition: all 0.5s ease-in;
 }
 
+@media screen and (max-width: 1125px){
+    #about .container{
+        width: 95%;
+    }
+}
+
 @media screen and (max-width: 796px){
     #about{
         padding-top:0px;
@@ -245,6 +260,39 @@ nav:after{
         margin-left: 50px;
         margin-top:50px;
     }
+}
+
+@media screen and (max-width: 650px){
+    #about{
+        padding-top:50px;
+    }
+    
+    #about .container{
+        width: 80%;
+        grid-template-columns: 1fr;
+    }
+
+    #about .container .col-left img{
+        width:45%;
+        height:400px;
+        margin-left: 8em;
+        border-radius:100%;
+        margin-top:-20px;
+    }
+
+    #about .container .col-right h3{
+        margin: 1em;
+        text-align: center;
+    }
+
+    #about .container .col-right p{
+        line-height: 2em;
+    }
+
+    #about .container .col-right a{
+        margin-left:9em;
+    }
+
 }
 /* ABOUT ME SECTION ENDS*/
 
@@ -285,12 +333,29 @@ nav:after{
 
 @media screen and (max-width: 796px){
     #skills{
-        padding: 2em;
+        padding-top: 1em;
+        padding-bottom: 3em;
     }
 
     #skills .container{
         width:90%;
         grid-gap:2em;
+    }
+
+    #skills .container h4{
+        font-size:1.5em;
+    }
+
+    #skills .container p{
+        font-size:1.1em;
+        line-height:1.8em;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #skills .container{
+        width:90%;
+        grid-template-columns: 1fr;
     }
 }
 
@@ -366,6 +431,15 @@ nav:after{
     text-transform: uppercase
 }
 
+@media screen and (max-width: 1125px){
+    #projects .container{
+        margin: 1em;
+        width:100%;
+        grid-gap: 2em;
+    }
+    
+}
+
 @media screen and (max-width: 796px){
     #projects{
         padding-top: 0px;
@@ -387,6 +461,17 @@ nav:after{
 
     .overlay:hover{
         padding-top: 13em;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #projects .container{
+        width:80%;
+    }
+
+    #project1, #project2, #project3{
+        background-size: 500px 500px;
+        background-repeat: no-repeat;
     }
 }
 
@@ -546,6 +631,19 @@ button:hover {
     }
 }
 
+@media screen and (max-width: 650px){
+    #contact{
+        height: auto;
+        padding-bottom:3em;
+    }
+    .wrapper .contacts{
+        padding:2em;
+    }
+
+    .form{
+        padding: 3em;
+    }
+}
 /* CONTACT SECTION ENDS */
 
 /* FOOTER */
