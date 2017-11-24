@@ -58,7 +58,7 @@ nav ul{
 
 .handle{
     width:100%;
-    background: #005c48;
+    background: #02ac84;
     text-align: left;
     color:#fff;
     box-sizing: border-box;
@@ -147,6 +147,10 @@ nav:after{
     .navbar .container{
         width:100%;
         margin:0;
+    }
+
+    .navbar.transparent .container{
+        width:100%;
     }
 
     #logo{
@@ -576,7 +580,7 @@ nav:after{
     }
 
     .overlay{
-        height: 38.5%;
+        height: 28.5%;
     }
 
     .overlay:hover{
