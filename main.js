@@ -5,3 +5,7 @@ $(window).on('scroll', function(){
         $('.navbar').removeClass('transparent');
     }
 })
+
+$('.handle').on('click', function(){
+    $('nav ul').toggleClass('showing');
+})
