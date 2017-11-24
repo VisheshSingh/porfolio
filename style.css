@@ -120,7 +120,7 @@ nav:after{
 
 @media screen and (max-width: 480px){
     #logo{
-        margin-left: 1em;
+        margin-left: 0.7em;
     }
 }
 /* NAVIGATION BAR ENDS*/
@@ -315,7 +315,7 @@ nav:after{
     #about .container .col-left img{
         width:40%;
         height:250px;
-        margin-left: 7em;
+        margin-left: 6em;
         border-radius:100%;
     }
 
@@ -510,7 +510,7 @@ nav:after{
     }
 
     #project1, #project2, #project3{
-        background-size: 400px 400px;
+        background-size: 350px 350px;
         background-repeat: no-repeat;
     }
 
@@ -696,6 +696,14 @@ button:hover {
 @media screen and (max-width: 480px){
     .contacts {
         text-align: center;
+    }
+
+    form{
+        display: block;
+    }
+
+    form p {
+        padding-bottom:2em;
     }
 }
 /* CONTACT SECTION ENDS */
