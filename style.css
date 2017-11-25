@@ -874,4 +874,31 @@ footer .social a i:hover{
 #github a:hover{
     color: #0CE49F;
 }
+/*PROJECT 1 PAGE END*/
 
+/*PROJECT 2 PAGE*/
+#looplab{
+    padding-top:120px;
+}
+
+#looplab .container{
+    width:80%;
+}
+
+#looplab .container h1{
+    font-size:3em;
+}
+#looplab .container #sub-title{
+    font-size:1.5em;
+    margin:0;
+}
+#looplab .container p{
+    font-size:1.3em;
+    margin: 1em 3em;
+    line-height: 1.8em;
+}
+
+#looplab .container img{
+    width:500px;
+    margin:1.5em 17em;
+}
