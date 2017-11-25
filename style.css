@@ -927,3 +927,81 @@ footer .social a i:hover{
 #looplab #github{
     margin: 2em 5em;
 }
+/*PROJECT LOOPLAB ENDS*/
+
+/*PROJECT PROPLISTINGS*/
+#proplistings{
+    padding-top:120px;
+}
+
+#proplistings .container{
+    width:80%;
+}
+
+#proplistings .container h1{
+    font-size:2.5em;
+}
+#proplistings .container #sub-title{
+    font-size:1.5em;
+    margin:0;
+}
+#proplistings .container p{
+    font-size:1.3em;
+    margin: 1em 3em;
+    line-height: 1.8em;
+}
+
+.skewedbox{
+    background:#0CE49F;
+    width:100%;
+    height:500px;
+    position: relative;
+    margin:3em 0;
+    padding:2em;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skewedbox:after{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    content:'';
+    background: inherit;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index:-1;
+    transform-origin: top left;
+    transform: skewY(4deg);
+}
+
+.skewedbox2{
+    background:#e2e2e2;
+    width:100%;
+    height:500px;
+    position: relative;
+    margin:6em 0;
+    padding:2em;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skewedbox2:after{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    content:'';
+    background: inherit;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index:-1;
+    transform-origin: bottom right;
+    transform: skewY(-4deg);
+}
+
+
+/*PROJECT PROPLISTINGS ENDS*/
