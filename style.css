@@ -898,11 +898,32 @@ footer .social a i:hover{
     line-height: 1.8em;
 }
 
-#looplab .container img{
-    width:500px;
-    margin:1.5em 17em;
-}
-
 #slider{
     text-align: center;
+    margin: 2em;
+}
+
+#looplab #description{
+    min-height: 500px;
+    background: #e2e2e2;
+    padding: 5em 10em;
+}
+
+#looplab #description h2{
+    font-size: 2em;
+    margin-bottom:1em;
+}
+
+#looplab #description p{
+    font-size:1.2em;
+    line-height: 1.8em;
+}
+
+#description a{
+    text-decoration: none;
+    color:#0CE49F;
+}
+
+#looplab #github{
+    margin: 2em 5em;
 }
