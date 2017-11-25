@@ -33,10 +33,56 @@
             <h1>LoopLab</h1>
             <p id="sub-title">A simple website-UI template built using Bootstrap 4 Beta</p>
             <img src="img/looplab.png" alt="">
+        </div>
+
+        <div id="slider">
+            <img name="slide" width="800" height="600" />
+        </div>
 
         <div id="github">
             <p>The code for the entire project can be found on my <a href="https://github.com/VisheshSingh/LoopLab" target="_blank"><i class="ion-social-github"></i> <span>Github</span> </a>here</p>
         </div>
     </section>
+    <footer>
+        <p>&copy; Copyright 2017 | Designed by <span>Vishesh Thakur</span></p>
+        <div class="social">
+            <a href="https://twitter.com/visheshsingh16" target="_blank"><i class="ion-social-twitter"></i></a> </i>
+            <a href="https://github.com/VisheshSingh" target="_blank"><i class="ion-social-github"></i> </a>
+            <a href="https://www.linkedin.com/in/visheshthakur/" target="_blank"><i class="ion-social-linkedin"></i> </a> 
+            <a href="https://www.instagram.com/insta_vishesh/" target="_blank"><i class="ion-social-instagram-outline"></i> </a> 
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        var i = 0; 			// Start Point
+        var images = [];	// Images Array
+        var time = 3000;	// Time Between Switch
+            
+        // Image List
+        images[0] = "img/looplab1.png";
+        images[1] = "img/looplab2.png";
+        images[2] = "img/looplab3.png";
+        images[3] = "img/looplab4.png";
+
+        // Change Image
+        function changeImg(){
+            document.slide.src = images[i];
+
+            // Check If Index Is Under Max
+            if(i < images.length - 1){
+            // Add 1 to Index
+            i++; 
+            } else { 
+                // Reset Back To O
+                i = 0;
+            }
+
+            // Run function every x seconds
+            setTimeout("changeImg()", time);
+        }
+
+        // Run function when page loads
+        window.onload=changeImg;
+    </script>
 </body>
 </html>
