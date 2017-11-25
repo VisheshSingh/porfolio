@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="ionicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png"> 
+    <title>Vishesh Thakur &copy; | Septa widget</title>
+</head>
+<body>
+    <!---------------------------- NAVIGATION BAR ------------------------------------------------>
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <h3 id="logo">Vishesh.thakur</h3>
+
+                <nav>
+                    
+                    <ul>
+                        <li><a href="index.html"><i class="ion-arrow-return-left"></i> Back to home</a></li>
+                    </ul>
+                    <div class="handle"><i class="ion-navicon-round"></i> Menu</div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="septa">
+        <div class="container">
+            <h1>SEPTA Rail Fare Calculator Widget</h1>
+            <p>An interactive widget for calculating SEPTA Regional Rail fare prices.</p>
+            <img src="img/zone-map.jpg" alt="">
+
+            <p>This Septa Rail Fare Calculator was part of the design challenge at one of the company's I was interviewing for.<br>
+                The task involved combining business logic with a new intuitive interface.
+            </p>
+
+            <p>Basically, When you take regional rail in and out of the city, the fare price is affected by where you purchase the ticket, when you ride, and how far you travel. All the information related to the fare price were dumped into a JSON file from the <a href="">SEPTA's official website</a> </p>
+        </div>
+
+        <div class="cols">
+            <div class="image">
+                <img src="img/widget.png" alt="">
+            </div>
+            <div id="desc">
+                <p>At the Front-end, I designed the widget seen in the screenshot by using HTML and CSS. Users have complete freedom to change the selection of zones from different options; whether they are travelling on weekdays or weekends; if they would like to purchase tickets onboard or station kiosk and the number of rides they need to ensure a comfortable journey.</p>
+            </div>
+            <div class="image">
+                <img src="img/widget2.png" alt="">
+            </div>
+            <div id="desc">
+                <p>Based on the user's of when there are riding; information float from right to left to give detailed description about their selection. Behind the scene this information is grabbed from the JSON file</p>
+            </div>
+            <div class="image">
+                <img src="img/widget3.png" alt="">
+            </div>
+            <div id="desc">
+                <p>Users are also made aware of any discounts or special pricing based on the number of trip-tickets they select. Like in this screenshot, the traveller gets a better deal for the same amount of price.</p>
+            </div>
+            <div class="image">
+                <img src="img/widget4.png" alt="">
+            </div>
+            <div id="desc">
+                <p>The application is completely responsive and lets users calculate their rail fare price right from thei mobile devices. I achieved this responsive layout by using media queries </p>
+            </div>
+            <div class="image">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Xhm26KK-64w" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div id="desc">
+                <p>Here is a small demonstration of the Septa Rail Fare Calculator widget. </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

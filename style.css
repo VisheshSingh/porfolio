@@ -806,3 +806,40 @@ footer .social a i:hover{
     transition: all 0.5s ease-in;
 }
 /* FOOTER ENDS */
+
+/*PROJECT 1 PAGE*/
+
+#septa{
+    padding-top:120px;
+}
+
+#septa .container{
+    width:80%;
+}
+
+#septa .container img{
+    width:1000px;
+}
+
+#septa .cols{
+    margin:2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 3em;
+}
+
+#septa .cols img{
+    width:500px;
+}
+
+#septa .cols .image{
+    margin-left:2em;
+}
+
+#septa .cols #desc p{
+    font-size:1.2em;
+    padding-top:5em;
+    
+    padding-right:3em;
+    line-height: 1.8em;
+}
