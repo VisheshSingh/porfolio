@@ -817,12 +817,26 @@ footer .social a i:hover{
     width:80%;
 }
 
+#septa .container h1{
+    font-size:3em;
+}
+#septa .container #sub-title{
+    font-size:1.5em;
+    margin:0;
+}
+#septa .container p{
+    font-size:1.3em;
+    margin: 1em 3em;
+    line-height: 1.8em;
+}
+
 #septa .container img{
     width:1000px;
+    margin:1.5em auto;
 }
 
 #septa .cols{
-    margin:2em;
+    margin:3em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 3em;
@@ -843,3 +857,21 @@ footer .social a i:hover{
     padding-right:3em;
     line-height: 1.8em;
 }
+
+#septa #github{
+    margin: 2em 5em;
+}
+
+#github p {
+    font-size:1.5em;
+    text-align: center;
+}
+
+#github a{
+    text-decoration: none;
+}
+
+#github a:hover{
+    color: #0CE49F;
+}
+

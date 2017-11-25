@@ -31,14 +31,14 @@
     <section id="septa">
         <div class="container">
             <h1>SEPTA Rail Fare Calculator Widget</h1>
-            <p>An interactive widget for calculating SEPTA Regional Rail fare prices.</p>
+            <p id="sub-title">An interactive widget for calculating SEPTA Regional Rail fare prices.</p>
             <img src="img/zone-map.jpg" alt="">
 
-            <p>This Septa Rail Fare Calculator was part of the design challenge at one of the company's I was interviewing for.<br>
+            <p>This Septa Rail Fare Calculator was part of the design challenge at one of the company's I was interviewing for.
                 The task involved combining business logic with a new intuitive interface.
             </p>
 
-            <p>Basically, When you take regional rail in and out of the city, the fare price is affected by where you purchase the ticket, when you ride, and how far you travel. All the information related to the fare price were dumped into a JSON file from the <a href="">SEPTA's official website</a> </p>
+            <p>Basically, When you take regional rail in and out of the city, the fare price is affected by where you purchase the ticket, when you ride, and how far you travel. All the information related to the fare price were dumped into a JSON file from the <a href="http://www.septa.org/fares/ticket/index.html" target="_blank">SEPTA's official website</a> </p>
         </div>
 
         <div class="cols">
@@ -52,7 +52,7 @@
                 <img src="img/widget2.png" alt="">
             </div>
             <div id="desc">
-                <p>Based on the user's of when there are riding; information float from right to left to give detailed description about their selection. Behind the scene this information is grabbed from the JSON file</p>
+                <p>Based on the user's of when there are riding; information float from right to left to give detailed description about their selection. Behind the scenes this information is grabbed from the JSON file by making AJAX requests as per the traveller's choice and populating live data.</p>
             </div>
             <div class="image">
                 <img src="img/widget3.png" alt="">
@@ -72,6 +72,10 @@
             <div id="desc">
                 <p>Here is a small demonstration of the Septa Rail Fare Calculator widget. </p>
             </div>
+        </div>
+
+        <div id="github">
+            <p>The code for the entire project can be found on my <a href=""><i class="ion-social-github"></i> <span>Github</span> </a>here</p>
         </div>
     </section>
 </body>
