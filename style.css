@@ -947,7 +947,7 @@ footer .social a i:hover{
 }
 #proplistings .container p{
     font-size:1.3em;
-    margin: 1em 3em;
+    margin: 1em;
     line-height: 1.8em;
 }
 
@@ -960,6 +960,11 @@ footer .social a i:hover{
     padding:2em;
     display:grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.skewedbox .image, .skewedbox2 .image{
+    padding-top:6em;
+    padding-right:4em;
 }
 
 .skewedbox:after{
@@ -1003,5 +1008,7 @@ footer .social a i:hover{
     transform: skewY(-4deg);
 }
 
-
+#proplistings #github{
+    margin-top:5em
+}
 /*PROJECT PROPLISTINGS ENDS*/
