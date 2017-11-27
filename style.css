@@ -1074,4 +1074,78 @@ footer .social a i:hover{
 #proplistings #github{
     margin-top:5em
 }
+
+@media screen and (max-width:796px){
+    #proplistings{
+        padding-top:230px;
+    }
+
+    #proplistings .container img{
+        width:600px;
+    }
+
+    .skewedbox, .skewedbox2{
+        grid-template-columns: 1fr;
+        height:auto;
+    }
+
+    .skewedbox img, .skewedbox2 img{
+        width:400px;
+        height:300px;
+    }
+
+    .skewedbox .image, .skewedbox2 .image{
+        text-align: center;
+        padding:0;
+    }
+}
+
+@media screen and (max-width:650px){
+    #proplistings{
+        padding-top:230px;
+    }
+
+    #proplistings .container img{
+        width:500px;
+    }
+
+    .skewedbox, .skewedbox2{
+        grid-template-columns: 1fr;
+        height:auto;
+    }
+
+    .skewedbox img, .skewedbox2 img{
+        width:400px;
+        height:300px;
+    }
+
+    .skewedbox .image, .skewedbox2 .image{
+        text-align: center;
+        padding:0;
+    }
+}
+
+@media screen and (max-width:480px){
+    #proplistings{
+        padding-top:200px;
+    }
+
+    #proplistings .container img{
+        width:400px;
+    }
+
+    .skewedbox, .skewedbox2{
+        grid-template-columns: 1fr;
+        height:auto;
+    }
+
+    .skewedbox img, .skewedbox2 img{
+        width:400px;
+        height:300px;
+    }
+
+    .skewedbox .image, .skewedbox2 .image{
+        padding:0;
+    }
+}
 /*PROJECT PROPLISTINGS ENDS*/
