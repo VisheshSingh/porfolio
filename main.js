@@ -1,3 +1,4 @@
+//TRANSPARENT NAVBAR ON SCROLL
 $(window).on('scroll', function(){
     if($(window).scrollTop()) {
         $('.navbar').addClass('transparent');
@@ -6,10 +7,12 @@ $(window).on('scroll', function(){
     }
 })
 
+// TOGGLE MENU FOR MOBILE DEVICES
 $('.handle').on('click', function(){
     $('nav ul').toggleClass('showing');
 })
 
+// SMOOTH SCROLLING
 $(document).ready(function(){
     // Add smooth scrolling to all links
     $("a").on('click', function(event) {
