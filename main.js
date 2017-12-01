@@ -12,6 +12,22 @@ $('.handle').on('click', function(){
     $('nav ul').toggleClass('showing');
 })
 
+// JAVASCRIPT APP
+$(".sidearea a").click(function(){
+
+  $(this).toggleClass("open");
+
+  if($(this).hasClass("open")){
+    $(".sidearea").animate({
+      width:"40%"
+    },1000)
+  } else {
+    $(".sidearea").animate({
+      width:"12%"
+    },1000)
+  }
+})
+
 // SMOOTH SCROLLING
 $(document).ready(function(){
     // Add smooth scrolling to all links
