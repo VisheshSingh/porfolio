@@ -6,6 +6,37 @@
     line-height: 1.5em;
 }
 
+
+body{
+    position: relative;
+}
+/* JAVASCRIPT APP */
+.sidearea{
+    top:10vh;
+    background: rgb(238, 238, 238);
+    height:80vh;
+    position: absolute;
+    right:0;
+    z-index:2;
+    width:12%;
+    text-align: center;
+}
+
+.sidearea a{
+    padding:10px 30px;
+    background:#0CE49F;
+    text-decoration: none;
+    color:#000;
+}
+
+.sidearea a:hover{
+    color:#0CE49F;
+    border:1px solid #0CE49F;
+    background: #fff;
+    transition: all 0.5s ease;
+}
+
+
 /* NAVIGATION BAR */
 .navbar{
     background: #0CE49F;
@@ -808,7 +839,6 @@ footer .social a i:hover{
 /* FOOTER ENDS */
 
 /*PROJECT 1 PAGE*/
-
 #septa{
     padding-top:120px;
 }
@@ -853,7 +883,6 @@ footer .social a i:hover{
 #septa .cols #desc p{
     font-size:1.2em;
     padding-top:5em;
-    
     padding-right:3em;
     line-height: 1.8em;
 }
@@ -873,6 +902,49 @@ footer .social a i:hover{
 
 #github a:hover{
     color: #0CE49F;
+}
+
+@media screen and (max-width:480px){
+    #septa{
+        padding-top:200px;
+    }
+    
+    #septa .container #sub-title{
+        font-size:1.5em;
+        margin:0;
+    }
+
+    #septa .container img{
+        width: 400px;
+    }
+    #septa .container p{
+        font-size:1.3em;
+        margin: 1em;
+        line-height: 1.8em;
+    }
+
+    #septa .cols{
+        grid-template-columns: 1fr;
+        grid-row-gap:0;
+    }
+
+    #septa .cols img{
+        width:400px;
+    }
+
+    #septa .cols .image{
+        margin-left:0;
+    }
+
+    #septa .cols #desc{
+        width:70%;
+    }
+
+    #septa .cols #desc p{
+        font-size:1.2em;
+        padding:1em;
+    }
+
 }
 /*PROJECT 1 PAGE END*/
 
