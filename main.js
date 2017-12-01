@@ -20,11 +20,15 @@ $(".sidearea a").click(function(){
   if($(this).hasClass("open")){
     $(".sidearea").animate({
       width:"40%"
-    },1000)
+    },1000, function(){
+      $(".sidearea a").text("Close");
+    })
   } else {
     $(".sidearea").animate({
       width:"12%"
-    },1000)
+    },1000, function(){
+      $(".sidearea a").text("Open");
+    })
   }
 })
 
