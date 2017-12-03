@@ -41,6 +41,15 @@ body{
 }
 
 
+.intro, .intro-color{
+    margin:10px;
+}
+
+#intro, #intro-color{
+    margin:10px 20px;
+}
+
+
 /* NAVIGATION BAR */
 .navbar{
     background: #0CE49F;

@@ -13,7 +13,7 @@ $('.handle').on('click', function(){
 })
 
 // JAVASCRIPT APP
-$(".sidearea a").click(function(){
+$(".sidearea > a").click(function(){
 
   $(this).toggleClass("open");
 
@@ -21,16 +21,24 @@ $(".sidearea a").click(function(){
     $(".sidearea").animate({
       width:"40%"
     },1000, function(){
-      $(".sidearea a").text("Close");
+      $(".sidearea > a").text("Close");
     })
   } else {
     $(".sidearea").animate({
       width:"12%"
     },1000, function(){
-      $(".sidearea a").text("Open");
+      $(".sidearea > a").text("Open");
     })
   }
 })
+
+$(".updatebtn").click(function(){
+  var newintro = $("#intro").val();
+  var newintrocolor = $("#intro-color").val();
+
+  $("#hero > h1").text(newintro);
+  $("#hero > h1").css("color",newintrocolor);
+});
 
 // SMOOTH SCROLLING
 $(document).ready(function(){
