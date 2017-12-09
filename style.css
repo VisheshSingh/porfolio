@@ -32,6 +32,8 @@ body{
     background:#0CE49F;
     text-decoration: none;
     color:#000;
+    display: inline-block;
+    margin-top:10px;
 }
 
 .sidearea a:hover{
@@ -65,6 +67,7 @@ body{
     width:20%;
     height: 60px;
     background:green;
+    background-size:cover;
 }
 
 

@@ -13,8 +13,11 @@ $('.handle').on('click', function(){
 })
 
 // JAVASCRIPT APP
+$(".sidearea > a").siblings().hide(); //INTIALLY HIDDEN
+
 $(".sidearea > a").click(function(){
 
+  $(".sidearea > a").siblings().toggle();
   $(this).toggleClass("open");
 
   if($(this).hasClass("open")){
@@ -31,6 +34,11 @@ $(".sidearea > a").click(function(){
     })
   }
 })
+
+$('.back1').css('background-image', 'url(img/back1.jpg)');
+$('.back2').css('background-image', 'url(img/back2.jpg)');
+$('.back3').css('background-image', 'url(img/back3.jpg)');
+$('.back4').css('background-image', 'url(img/back4.jpg)');
 
 $(".updatebtn").click(function(){
   var newintro = $("#intro").val();
