@@ -40,6 +40,11 @@ $('.back2').css('background-image', 'url(img/back2.jpg)');
 $('.back3').css('background-image', 'url(img/back3.jpg)');
 $('.back4').css('background-image', 'url(img/back4.jpg)');
 
+$('.newbackground > div').click(function(){
+  $(this).toggleClass('addBorder');
+  $(this).siblings().removeClass('addBorder');
+})
+
 $(".updatebtn").click(function(){
   var newintro = $("#intro").val();
   var newintrocolor = $("#intro-color").val();
@@ -52,6 +57,16 @@ $(".updatebtn").click(function(){
 
   $('#hero > p').text(newsubintro);
   $("#hero > p").css("color",newsubintrocolor);
+
+  if($('.back1').hasClass('addBorder')){
+    $('#hero').css("background-image", "url(img/back1.jpg)");
+  } else if($('.back2').hasClass('addBorder')){
+    $('#hero').css("background-image", "url(img/back2.jpg)");
+  } else if($('.back3').hasClass('addBorder')){
+    $('#hero').css("background-image", "url(img/back3.jpg)");
+  } else {
+    $('#hero').css("background-image", "url(img/back4.jpg)");
+  }
 });
 
 // SMOOTH SCROLLING
