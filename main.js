@@ -36,8 +36,14 @@ $(".updatebtn").click(function(){
   var newintro = $("#intro").val();
   var newintrocolor = $("#intro-color").val();
 
+  var newsubintro = $("#sub-intro").val();
+  var newsubintrocolor = $("#sub-intro-color").val();
+
   $("#hero > h1").text(newintro);
   $("#hero > h1").css("color",newintrocolor);
+
+  $('#hero > p').text(newsubintro);
+  $("#hero > p").css("color",newsubintrocolor);
 });
 
 // SMOOTH SCROLLING

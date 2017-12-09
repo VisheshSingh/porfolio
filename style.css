@@ -40,13 +40,16 @@ body{
     transition: all 0.5s ease;
 }
 
-
+.input-ctn{
+    font-size:10px;
+}
 .intro, .intro-color{
-    margin:10px;
+    margin:12px;
 }
 
-#intro, #intro-color{
-    margin:10px 20px;
+#intro, #intro-color, #sub-intro, #sub-intro-color{
+    
+    width:50%;
 }
 
 
