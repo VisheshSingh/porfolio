@@ -14,6 +14,10 @@ $('.handle').on('click', function(){
 
 // SMOOTH SCROLLING
 $(document).ready(function(){
+    $(".burger").click(function(){
+        $(this).toggleClass('is-active');
+        $("#mobile-menu").slideToggle();
+    })
     // Add smooth scrolling to all links
     $("a").on('click', function(event) {
   
