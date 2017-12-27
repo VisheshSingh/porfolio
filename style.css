@@ -6,6 +6,75 @@
     line-height: 1.5em;
 }
 
+
+body{
+    position: relative;
+}
+/* JAVASCRIPT APP */
+.sidearea{
+    top:10vh;
+    background: rgb(238, 238, 238);
+    height:80vh;
+    position: absolute;
+    right:0;
+    z-index:2;
+    width:12%;
+    text-align: center;
+}
+
+.sidearea h2{
+    padding:10px;
+}
+
+.sidearea a{
+    font-size:12px;
+    padding:5px 15px;
+    background:#0CE49F;
+    text-decoration: none;
+    color:#000;
+    display: inline-block;
+    margin-top:10px;
+}
+
+.sidearea a:hover{
+    color:#0CE49F;
+    border:1px solid #0CE49F;
+    background: #fff;
+    transition: all 0.5s ease;
+}
+
+.input-ctn{
+    font-size:10px;
+}
+
+.intro, .intro-color{
+    margin:12px;
+    
+}
+
+#intro, #intro-color, #sub-intro, #sub-intro-color{
+    width:50%;
+    padding:2px;
+}
+
+.newbackground{
+    margin-top:10px;
+    display: flex;  
+    justify-content: space-around;
+}
+
+.newbackground > div{
+    width:20%;
+    height: 60px;
+    background:green;
+    background-size:cover;
+}
+
+.addBorder{
+    border: 4px solid lightgreen;
+}
+
+
 /* NAVIGATION BAR */
 .navbar{
     background: #0CE49F;
